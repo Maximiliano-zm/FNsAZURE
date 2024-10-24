@@ -1,0 +1,24 @@
+{
+  "name": "fnazure",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "start": "func start",
+    "test": "echo \"No tests yet...\""
+  },
+  "dependencies": {
+    "@azure/functions": "^4.0.0",
+    "@azure/msal-node": "^2.15.0",
+    "archiver": "^7.0.1",
+    "axios": "^1.7.7",
+    "pdf-lib": "^1.17.1",
+    "sharp": "^0.33.4",
+    "stream-buffers": "^3.0.3",
+    "unzipper": "^0.12.3",
+    "xlsx": "^0.18.5"
+  },
+  "main": "src/{index.js,functions/*.js}"
+}
+
+ 
